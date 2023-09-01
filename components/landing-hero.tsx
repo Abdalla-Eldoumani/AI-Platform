@@ -31,7 +31,7 @@ export const LandingHero = () => {
                 With a few clicks you make your dream come true.
             </div>
             <div>
-                <Link href={isSignedIn ? "/dashboard" : "/signup"}>
+                <Link href={isSignedIn ? "/dashboard" : "/settings"}>
                     <Button variant="premium" className="font-semibold rounded-full md:text-lg md:p-6 p-4">
                         Get Started for Free
                     </Button>
