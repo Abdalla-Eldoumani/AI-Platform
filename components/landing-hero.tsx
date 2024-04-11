@@ -28,7 +28,7 @@ export const LandingHero = () => {
                 </div>
             </div>
             <div className="text-sm md:text-xl font-light text-zinc-400">
-                With a few clicks you make your dream come true.
+                With a few clicks you can make your dreams come true.
             </div>
             <div>
                 <Link href={isSignedIn ? "/dashboard" : "/settings"}>
